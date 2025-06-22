@@ -13,5 +13,6 @@ Gem::Specification.new do |s|
   s.test_files            = `git ls-files -- spec/*`.split("\n")
   s.version               = "0.0.2"
 
-  s.add_dependency "activerecord"
+  # s.add_dependency "activerecord"
+  spec.add_runtime_dependency 'active_record', '~> 7.0'
 end
