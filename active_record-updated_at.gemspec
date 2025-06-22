@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.version               = "0.0.2"
 
   # s.add_dependency "activerecord"
-  s.add_dependency 'active_record', '~> 7.0'
+  s.add_dependency 'active_record', '~> 7.0.0'
 end
